@@ -1,0 +1,14 @@
+{
+  "name": "03-message-ack",
+  "version": "1.0.0",
+  "description": "RabbitMQ Message Acknowledgment Example",
+  "scripts": {
+    "producer": "node producer.js",
+    "worker-ack": "node worker-with-ack.js",
+    "worker-auto": "node worker-auto-ack.js",
+    "worker-error": "node worker-error-handling.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
