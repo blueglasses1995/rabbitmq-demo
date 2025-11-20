@@ -1,0 +1,14 @@
+{
+  "name": "02-work-queues",
+  "version": "1.0.0",
+  "description": "RabbitMQ Work Queues Example",
+  "main": "index.js",
+  "scripts": {
+    "producer": "node producer.js",
+    "worker": "node worker.js",
+    "worker-slow": "node worker-slow.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
