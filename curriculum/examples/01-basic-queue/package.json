@@ -1,0 +1,13 @@
+{
+  "name": "01-basic-queue",
+  "version": "1.0.0",
+  "description": "RabbitMQ Basic Queue Example",
+  "main": "index.js",
+  "scripts": {
+    "producer": "node producer.js",
+    "consumer": "node consumer.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
