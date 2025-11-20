@@ -1,0 +1,14 @@
+{
+  "name": "05-pubsub",
+  "version": "1.0.0",
+  "description": "RabbitMQ Publish/Subscribe (Fanout Exchange) Example",
+  "scripts": {
+    "publisher": "node publisher.js",
+    "sub-file": "node subscriber-file.js",
+    "sub-console": "node subscriber-console.js",
+    "sub-alert": "node subscriber-alert.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}

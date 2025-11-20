@@ -1,0 +1,13 @@
+{
+  "name": "04-durability",
+  "version": "1.0.0",
+  "description": "RabbitMQ Message Durability Example",
+  "scripts": {
+    "producer-durable": "node producer-durable.js",
+    "producer-non-durable": "node producer-non-durable.js",
+    "consumer": "node consumer-durable.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
