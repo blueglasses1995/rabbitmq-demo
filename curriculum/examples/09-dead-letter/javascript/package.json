@@ -1,0 +1,14 @@
+{
+  "name": "09-dead-letter-js",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "setup": "node setup-dlx.js",
+    "producer": "node producer-with-error.js",
+    "consumer": "node consumer-with-dlx.js",
+    "monitor": "node monitor-dlx.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}

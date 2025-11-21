@@ -1,0 +1,12 @@
+{
+  "name": "07-topics-js",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "emit": "node emit-topic.js",
+    "receive": "node receive-topic.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}

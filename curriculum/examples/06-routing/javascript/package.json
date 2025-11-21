@@ -1,0 +1,13 @@
+{
+  "name": "06-routing-js",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "emit": "node emit-log.js",
+    "receive-error": "node receive-error.js",
+    "receive-all": "node receive-all.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}

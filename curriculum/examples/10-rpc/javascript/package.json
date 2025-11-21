@@ -1,0 +1,12 @@
+{
+  "name": "10-rpc-js",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "server": "node rpc-server.js",
+    "client": "node rpc-client.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}

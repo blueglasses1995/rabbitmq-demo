@@ -1,0 +1,17 @@
+{
+  "name": "10-rpc-ts",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "server": "npm run build && node dist/rpc-server.js",
+    "client": "npm run build && node dist/rpc-client.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.1",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
